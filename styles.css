@@ -7,7 +7,36 @@
 
 .homepage {
     position: relative;
-    width: 375px;
-    height: 5410px;
+    width: 100vw;
+    height: 755.59vh;
     background: #E5E5E5;
+}
+
+.navigation_bar {
+    width: 100vw;
+    height: 6.70vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.my_logo {
+    height: 1.25rem;
+    width: 4.75rem;
+    color: #6070FF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    margin-left: 1.5rem;
+}
+
+.social_media_icons {
+    width: 1.125rem;
+    height: 0.7rem;
+    margin-right: 2.25rem;
 }
