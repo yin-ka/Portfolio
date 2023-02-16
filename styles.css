@@ -106,3 +106,12 @@
   width: 10.636rem;
   height: 1.25rem;
 }
+
+.headline-4-ul {
+  list-style: none;
+  width: 10.636rem;
+  height: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
