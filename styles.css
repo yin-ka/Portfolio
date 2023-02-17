@@ -12,7 +12,7 @@ ul {
 body {
   position: relative;
   width: 100vw;
-  height: 755.59vh;
+  height: 338.125rem;
   background: #e5e5e5;
   display: flex;
   flex-direction: column;
@@ -1203,10 +1203,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 114px 24px;
-  gap: 24px;
-  width: 375px;
-  height: 1125.15px;
+  padding: 7.125rem 1.5rem;
+  gap: 1.5rem;
+  width: 100vw;
+  height: 177.19vh;
   background: #fff;
 }
 
@@ -1217,37 +1217,37 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  gap: 12px;
+  gap: 0.75rem;
   width: 327px;
   height: 409px;
 }
 
 .top1 {
-  width: 327px;
-  height: 101px;
+  width: 20.438rem;
+  height: 6.313rem;
 }
 
 .top1-p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
   display: flex;
   align-items: center;
 }
 
 .top2 {
-  width: 327px;
-  height: 144px;
+  width: 20.438rem;
+  height: 9rem;
 }
 
 .top2-p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #344563;
 }
 
@@ -1256,9 +1256,9 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  gap: 16px;
-  width: 200px;
-  height: 80px;
+  gap: 1rem;
+  width: 12.5rem;
+  height: 5rem;
 }
 
 .top3-1 {
@@ -1266,19 +1266,19 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 0;
-  gap: 8px;
-  width: 117px;
-  height: 24px;
+  gap: 0.5rem;
+  width: 7.313rem;
+  height: 1.5rem;
 }
 
 .top3-1-p {
-  width: 117px;
-  height: 24px;
+  width: 7.313rem;
+  height: 1.5rem;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 0.96rem;
-  line-height: 24px;
+  line-height: 1.5rem;
   color: #7f8cff;
 }
 
@@ -1287,58 +1287,58 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 0;
-  width: 200px;
-  height: 40px;
+  width: 12.5rem;
+  height: 2.5rem;
 }
 
 .top3-2-ul-li1 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
+  padding: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
 }
 
 .top3-2-ul-li2 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
+  padding: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
 }
 
 .top3-2-ul-li3 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
+  padding: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
 }
 
 .top3-2-ul-li4 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
+  padding: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
 }
 
 .top3-2-ul-li5 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
+  padding: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
 }
 
 .top4 {
@@ -1346,23 +1346,23 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
-  gap: 10px;
-  width: 162px;
-  height: 48px;
+  padding: 0.75rem;
+  gap: 0.625rem;
+  width: 10.125rem;
+  height: 3rem;
   border: 1px solid #6070ff;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background-color: #fff;
 }
 
 .top4-sp {
-  width: 138px;
-  height: 24px;
+  width: 8.625rem;
+  height: 1.5rem;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 1.063rem;
+  line-height: 1.5rem;
   display: flex;
   align-items: center;
   text-align: center;
@@ -1376,8 +1376,8 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 0;
-  width: 327px;
-  height: 464.15px;
+  width: 20.438rem;
+  height: 29.009rem;
 }
 
 .skillset1 {
@@ -1385,8 +1385,8 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  width: 327px;
-  height: 320.15px;
+  width: 20.438rem;
+  height: 20.009rem;
   border: #7f8cff;
 }
 
@@ -1394,8 +1394,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 327px;
-  height: 72px;
+  width: 20.438rem;
+  height: 4.5rem;
   justify-content: space-between;
   padding: 1rem;
 }
@@ -1403,17 +1403,17 @@ body {
 .skillset1-1-ul-li1 {
   display: flex;
   align-items: center;
-  height: 24px;
-  left: 12px;
-  right: 78px;
+  height: 1.5rem;
+  left: 0.75rem;
+  right: 4.875rem;
 }
 
 .skillset1-1-ul-li1-sp {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   color: #000;
 }
 
@@ -1421,20 +1421,20 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  right: 26px;
+  padding: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  right: 1.625rem;
 }
 
 .skillset1-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 12px;
-  gap: 12px;
-  width: 327px;
-  height: 248.15px;
+  padding: 0.75rem;
+  gap: 0.75rem;
+  width: 20.438rem;
+  height: 15.509rem;
 }
 
 .skillset1-2-1-ul {
@@ -1443,24 +1443,24 @@ body {
   align-items: center;
   justify-content: flex-start;
   gap: 1rem;
-  width: 303px;
-  height: 66.72px;
+  width: 18.938rem;
+  height: 4.17rem;
   padding: 0.5rem;
   background: #f7f7f9;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .skillset1-2-1-ul-li-2-sp {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.938rem;
+  line-height: 1.25rem;
 }
 
 .skillset1-2-2-ul {
-  width: 303px;
-  height: 66.72px;
+  width: 18.938rem;
+  height: 4.125rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1468,20 +1468,20 @@ body {
   gap: 1rem;
   padding: 0.5rem;
   background: #f7f7f9;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .skillset1-2-2-ul-li2-sp {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.938rem;
+  line-height: 1.25rem;
 }
 
 .skillset1-2-3-ul {
-  width: 303px;
-  height: 66.72px;
+  width: 18.938rem;
+  height: 4.125rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1489,15 +1489,15 @@ body {
   gap: 1rem;
   padding: 0.5rem;
   background: #f7f7f9;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .skillset1-2-3-ul-li2-sp {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 0.938rem;
+  line-height: 1.25rem;
 }
 
 .skillset2-ul {
@@ -1506,16 +1506,16 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  width: 327px;
-  height: 72px;
+  width: 20.438rem;
+  height: 4.5rem;
 }
 
 .skillset2-ul-li1-sp {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 }
 
 .skillset2-ul-li2 {
@@ -1523,10 +1523,10 @@ body {
   flex-direction: row;
   align-items: flex-start;
   align-items: center;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
+  padding: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
 }
 
 .skillset3-ul {
@@ -1535,16 +1535,16 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  width: 327px;
-  height: 72px;
+  width: 20.438rem;
+  height: 4.5rem;
 }
 
 .skillset3-ul-li1-sp {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 }
 
 .skillset3-ul-li2 {
@@ -1552,8 +1552,8 @@ body {
   flex-direction: row;
   align-items: flex-start;
   align-items: center;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
+  padding: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
 }
