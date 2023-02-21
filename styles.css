@@ -865,6 +865,8 @@ body {
 }
 
 .works-3-div2-3-btn2 {
+  float: left;
+  margin-right: 0.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1099,16 +1101,15 @@ body {
 }
 
 .works-4-div2-3 {
-  display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 0;
-  gap: 0.5rem;
   width: 54.13vw;
   height: 3.78vh;
 }
 
 .works-4-div2-3-btn1 {
+  float: left;
+  margin-right: 0.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1132,6 +1133,8 @@ body {
 }
 
 .works-4-div2-3-btn2 {
+  float: left;
+  margin-right: 0.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
