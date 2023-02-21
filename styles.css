@@ -1649,6 +1649,7 @@ body {
   left: 0;
   top: 0;
   border-radius: 0.5rem;
+  padding: 1rem;
 }
 
 .email {
@@ -1658,6 +1659,7 @@ body {
   height: 3rem;
   width: 20.438rem;
   border-radius: 0.5rem;
+  padding: 1rem;
 }
 
 .msg {
@@ -1667,6 +1669,7 @@ body {
   height: 10.625rem;
   width: 20.438rem;
   border-radius: 0.5rem;
+  padding: 1rem;
 }
 
 .btn1 {
@@ -1725,3 +1728,4 @@ li .btn1 {
   color: #b3bac5;
   padding-left: 1rem;
 }
+
