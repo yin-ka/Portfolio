@@ -1775,6 +1775,10 @@ li .btn1 {
   display: none;
 }
 
+.few {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     display: none;
@@ -2083,7 +2087,7 @@ li .btn1 {
   .works-1-div2-1-b-ul-li-3-sp {
     width: 7.5rem;
     height: 1.5rem;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.125rem;
@@ -2346,7 +2350,7 @@ li .btn1 {
   .works-2-div2-3-btn1-sp1-ruby {
     width: 5.063rem;
     height: 1rem;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 0.725rem;
@@ -2363,7 +2367,8 @@ li .btn1 {
   .works-2-div2-4-btn {
     margin-top: 1rem;
   }
-  /*work3*/
+
+  /* work3 */
   .works-3-desktop {
     display: flex;
     flex-direction: row;
@@ -2387,86 +2392,79 @@ li .btn1 {
 
   .works-3-div2 {
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 1.5rem;
-gap: 1.5rem;
-width: 34rem;
-height: 29.063rem;
-margin: 1.5rem 1.375rem 0.438rem 1.375rem;
-background-color: antiquewhite;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    width: 34rem;
+    height: 29.063rem;
+    margin: 1.5rem 1.375rem 0.438rem 1.375rem;
   }
 
   .works-3-div2-1 {
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 12px;
-
-width: 496px;
-height: 98px;
-background-color: darkgreen;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 12px;
+    width: 496px;
+    height: 98px;
   }
 
   .works-3-div2-1-a {
     width: 496px;
-height: 46px;
+    height: 46px;
   }
 
   .works-3-div2-1-a-p {
     font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-color: #091E42;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
   }
 
   .works-3-div2-1-b {
     display: flex;
     width: 20rem;
-height: 2.5rem;
-background-color: #172b4d;
+    height: 2.5rem;
   }
 
   .works-3-div2-1-b-ul {
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0;
-gap: 0.75rem;
-width: 20rem;
-height: 2.5rem;
-background-color: #598adf;
-
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 0.75rem;
+    width: 20rem;
+    height: 2.5rem;
   }
 
   .works-3-div2-1-b-ul-li-1 {
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0.5rem 0;
-align-content: center;
-width: 6rem;
-height: 2.5rem;
-background-color: darkolivegreen;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 0;
+    align-content: center;
+    width: 6rem;
+    height: 2.5rem;
   }
 
   .works-3-div2-1-b-ul-li-1-sp {
     display: flex;
     flex-direction: row;
-align-items: center;
-padding: 0.5rem 0;
-align-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    align-content: center;
     width: 6rem;
-height: 2.5rem;
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 1.125rem;
-line-height: 1.5rem;
-color: #344563;
+    height: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #344563;
   }
 
   .works-3-div2-1-b-ul-li-2 {
@@ -2477,29 +2475,27 @@ color: #344563;
 
   .works-3-div2-1-b-ul-li-3 {
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0.5rem 0;
-
-width: 7.625rem;
-height: 2.5rem;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 0;
+    width: 7.625rem;
+    height: 2.5rem;
   }
 
   .works-3-div2-1-b-ul-li-3-sp {
     display: flex;
     flex-direction: row;
-align-items: center;
-padding: 0.5rem 0;
-align-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    align-content: center;
     width: 7.625rem;
     height: 2.5rem;
-
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 1.12rem;
-line-height: 1.5rem;
-color: #6B778C;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
+    color: #6b778c;
   }
 
   .works-3-div2-1-b-ul-li-4 {
@@ -2510,41 +2506,38 @@ color: #6B778C;
 
   .works-3-div2-1-b-ul-li-5 {
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 8px 0px;
-
-width: 38px;
-height: 40px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 0;
+    width: 2.375rem;
+    height: 2.5rem;
   }
 
   .works-3-div2-1-b-ul-li-5-sp {
-    width: 38px;
-height: 24px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-color: #6B778C;
+    width: 2.375rem;
+    height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #6b778c;
   }
 
   .works-3-div2-2 {
-    width: 496px;
-height: 70px;
+    width: 31rem;
+    height: 4.375rem;
   }
 
   .works-3-div2-2-p {
-    width: 496px;
-height: 70px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #344563;
-
+    width: 31rem;
+    height: 4.375rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #344563;
   }
 
   .works-3-div2-3 {
@@ -2571,7 +2564,7 @@ color: #344563;
   .works-3-div2-3-btn1-sp1-ruby {
     width: 5.063rem;
     height: 1rem;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 0.725rem;
@@ -2585,10 +2578,11 @@ color: #344563;
     height: 9.563rem;
   }
 
-  .works-2-div2-4-btn {
+  .works-3-div2-4-btn {
     margin-top: 1rem;
   }
-  /*work4*/
+
+  /* work4 */
   .works-4-desktop {
     display: flex;
     flex-direction: row;
@@ -2623,7 +2617,6 @@ color: #344563;
     width: 34rem;
     height: 29.063rem;
     margin: 1.5rem 0 0.438rem 1.5rem;
-    background-color: #6B778C;
   }
 
   .works-4-div2-1 {
@@ -2634,7 +2627,6 @@ color: #344563;
     gap: 0.75rem;
     width: 31rem;
     height: 6.125rem;
-    background-color: darkgrey;
   }
 
   .works-4-div2-1-a {
@@ -2642,7 +2634,6 @@ color: #344563;
     align-items: center;
     height: 2.875rem;
     width: 31rem;
-    background-color: #598adf;
   }
 
   .works-4-div2-1-a-p {
@@ -2669,7 +2660,6 @@ color: #344563;
     gap: 0.75rem;
     width: 17.813rem;
     height: 2.5rem;
-    background-color: darksalmon;
   }
 
   .works-4-div2-1-b-ul-li-1 {
@@ -2679,7 +2669,6 @@ color: #344563;
     padding: 0.5rem 0;
     width: 2.688rem;
     height: 2.5rem;
-    background-color: cadetblue;
   }
 
   .works-4-div2-1-b-ul-li-1-sp {
@@ -2707,7 +2696,6 @@ color: #344563;
     padding: 0.5rem 0;
     width: 9.313rem;
     height: 2.5rem;
-    background-color: #cfd8dc;
   }
 
   .works-4-div2-1-b-ul-li-3-sp {
@@ -2787,7 +2775,7 @@ color: #344563;
   .works-4-div2-3-btn1-sp1-ruby {
     width: 5.063rem;
     height: 1rem;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 0.725rem;
@@ -2804,11 +2792,284 @@ color: #344563;
   .works-4-div2-4-btn {
     margin-top: 1rem;
   }
-  /*aboutme*/
+
+  /* aboutme */
   .aboutme {
-    width: 1440px;
-height: 924px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 57.75rem;
   }
 
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 1.5rem;
+    width: 27.938rem;
+    height: 24.5rem;
+    margin: 0 0 8.375rem 8.875rem;
+  }
 
+  .top1 {
+    width: 27.938rem;
+    height: 7.125rem;
+  }
+
+  .top1-p {
+    width: 27.938rem;
+    height: 7.125rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+    display: flex;
+    align-items: center;
+    color: #091e42;
+  }
+
+  .top2 {
+    width: 27.938rem;
+    height: 6.375rem;
+  }
+
+  .top2-p {
+    width: 27.938rem;
+    height: 6.375rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #344563;
+  }
+
+  .top3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 1rem;
+    width: 12.5rem;
+    height: 5rem;
+  }
+
+  .top3-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 0.5rem;
+    width: 7.313rem;
+    height: 1.5rem;
+  }
+
+  .top3-1-p {
+    width: 7.313rem;
+    height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.969rem;
+    line-height: 1.5rem;
+    color: #7f8cff;
+  }
+
+  .skillset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 42.75rem;
+    height: 22.5rem;
+    margin-top: -10.188rem;
+  }
+
+  .skillset1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    width: 42.75rem;
+    height: 13.5rem;
+  }
+
+  .skillset1-1 {
+    display: flex;
+    width: 42.75rem;
+    height: 4.5rem;
+  }
+
+  .skillset1-1-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 42.75rem;
+    height: 4.5rem;
+  }
+
+  .skillset1-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.75rem;
+    gap: 0.75rem;
+    width: 25.875;
+    height: 9rem;
+  }
+
+  .skillset1-2-1 {
+    width: 7.625rem;
+    height: 7.5rem;
+    background: #f7f7f9;
+    border-radius: 0.5rem;
+  }
+
+  .skillset1-2-1-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 7.625rem;
+    height: 7.5rem;
+    background: #f7f7f9;
+    border-radius: 0.5rem;
+  }
+
+  .skillset1-2-1-ul-li1 {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #fff;
+  }
+
+  .skillset1-2-2 {
+    width: 7.625rem;
+    height: 7.5rem;
+    background: #f7f7f9;
+    border-radius: 0.5rem;
+  }
+
+  .skillset1-2-2-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 7.625rem;
+    height: 7.5rem;
+    background: #f7f7f9;
+    border-radius: 0.5rem;
+  }
+
+  .skillset1-2-2-ul-li1 {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #fff;
+  }
+
+  .skillset1-2-3 {
+    width: 7.625rem;
+    height: 7.5rem;
+    background: #f7f7f9;
+    border-radius: 0.5rem;
+  }
+
+  .skillset1-2-3-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 7.625rem;
+    height: 7.5rem;
+    background: #f7f7f9;
+    border-radius: 0.5rem;
+  }
+
+  .skillset1-2-3-ul-li1 {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #fff;
+  }
+
+  .skillset2 {
+    width: 42.75rem;
+    height: 4.5rem;
+  }
+
+  .skillset2-ul {
+    display: flex;
+    flex-direction: row;
+    width: 42.75rem;
+    height: 4.5rem;
+  }
+
+  .skillset3 {
+    width: 42.75rem;
+    height: 4.5rem;
+  }
+
+  .skillset3-ul {
+    display: flex;
+    flex-direction: row;
+    width: 42.75rem;
+    height: 4.5rem;
+  }
+
+  /* contact form */
+  .form {
+    height: 52.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    background-image: url(images/contact\ form\ background\ shapesdesk.svg);
+    background-position: left;
+  }
+
+  .few {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 1.5rem;
+    width: 50.063rem;
+    height: 36.063rem;
+    margin: 8.875rem 19.938rem 7.938rem 20rem;
+  }
+
+  .contact-me .form-h2 {
+    width: 50.063rem;
+    height: 3.5rem;
+    margin: -8.875px 19.938rem 0 20rem;
+  }
+
+  .contact-me .txt-p {
+    display: flex;
+    width: 35.563rem;
+    height: 6.375rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-left: 27.25rem;
+    margin-right: 27.188rem;
+    text-align: center;
+    color: #ebebff;
+  }
+
+  .form-1 {
+    margin-top: -5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 1.688rem;
+    width: 27.938rem;
+    height: 24.688rem;
+  }
+
+  .div-shape {
+    display: none;
+  }
 }
