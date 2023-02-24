@@ -27,10 +27,14 @@ body {
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
-
+.header {
+  width: 100%;
+  height: 6.7vh;
+}
 .navigation_bar {
-  width: 100vw;
+  width: 100%;
   height: 6.7vh;
   background-color: #fff;
   display: flex;
@@ -59,7 +63,7 @@ body {
 }
 
 .headline {
-  width: 100vw;
+  width: 100%;
   height: 95.12vh;
   background: #fff;
   background-image: url("images/header-shapes\ mobile.png");
@@ -1733,11 +1737,20 @@ li .btn1 {
   display: none;
 }
 
-@media (min-width: 768px) {
+.desktop_headline {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
   .header {
     display: none;
   }
 
+  .headline {
+    display: none;
+  }
+
+  /* header */
   .desktop_header {
     display: flex;
     flex-direction: row;
@@ -1753,25 +1766,24 @@ li .btn1 {
     justify-content: space-between;
     width: 100%;
     height: 4.5rem;
-    background: #FFFFFF;
+    background: #fff;
   }
 
   .desktop_navigation_bar p {
-    height: 40px;
-    width: 100px;
-    border-radius: 0;
-    padding: 10px 12px 10px 12px;
+    height: 2.5rem;
+    width: 6.25rem;
+    padding: 0.625rem 0.75rem 0.625rem 0.75rem;
     margin-left: 8.938rem;
   }
 
   .desktop_navigation_bar p span {
-    width: 76px;
-    height: 20px;
+    width: 4.75rem;
+    height: 1.25rem;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
     color: #6070ff;
   }
 
@@ -1780,10 +1792,9 @@ li .btn1 {
     flex-direction: row;
     align-items: center;
     text-align: center;
-    height: 40px;
-    gap: 8px;
-    width: 259px;
-    border-radius: 0;
+    height: 2.5rem;
+    gap: 0.5rem;
+    width: 16.188rem;
     margin-right: 8.875rem;
   }
 
@@ -1791,38 +1802,111 @@ li .btn1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px 12px;
-    gap: 10px;
-    width: 87px;
-    height: 40px;
+    padding: 0.625rem 0.75rem;
+    gap: 0.625rem;
+    width: 5.438rem;
+    height: 2.5rem
   }
 
   .nav_item-li2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px 12px;
-    gap: 10px;
-    width: 70px;
-    height: 40px;
+    padding: 0.625rem 0.75rem;
+    gap: 0.625rem;
+    width: 4.375rem;
+    height: 2.5rem
   }
 
   .nav_item-li3 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px 12px;
-    gap: 10px;
+    padding: 0.625rem 0.75rem;
+    gap: 0.625rem;
     width: 86px;
-    height: 40px;
+    height: 2.5rem
   }
 
   .nav_item li a {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
+    font-size: 0.938rem;
+    line-height: 1.25rem;
     color: #344563;
+  }
+
+  /* Headline */
+  .desktop_headline {
+    width: 100%;
+    height: 52.875rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/Header\ bg1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .desktop_headline-1 {
+    display: flex;
+    align-items: center;
+    height: 7.625rem;
+    width: 57.5rem;
+    letter-spacing: 0.023rem;
+    margin: 17.938rem 0rem 0rem 16.25rem;
+  }
+
+  .headline-1-h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.75rem;
+    color: #091e42;
+  }
+
+  .headline-2 {
+    display: flex;
+    align-items: center;
+    width: 57.5rem;
+    height: 6.125rem;
+    margin: 0.75rem 0rem 0 16.25rem;
+  }
+
+  .headline-2-p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #344563;
+  }
+
+  .headline-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 1.5rem;
+    width: 7.313rem;
+    margin: 0.75rem 66.438rem 0 16.25rem;
+  }
+
+  .headline-3-p {
+    width: 7.313rem;
+    height: 1.5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    color: #7f8cff;
+  }
+
+  .headline-4-ul {
+    width: 1.073rem;
+    height: 1.25rem;
+    margin: 0.875rem 63.114rem 0 16.25rem;
   }
 }
