@@ -1812,10 +1812,6 @@ li .btn1 {
     display: none;
   }
 
-  body {
-    height: 5125px;
-  }
-
   /* header */
   .desktop_header {
     display: flex;
@@ -1913,6 +1909,7 @@ li .btn1 {
     background-image: url(images/Header\ bg1.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    margin-bottom: 0;
   }
 
   .desktop_headline-1 {
@@ -1979,9 +1976,9 @@ li .btn1 {
   /* works section */
   .works {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
     align-items: center;
-    padding: 142px;
+    padding: 0 8.875rem;
     width: 90rem;
     height: 2694px;
   }
@@ -1995,6 +1992,7 @@ li .btn1 {
     height: 31rem;
     border: 1px solid #dfe1e6;
     border-radius: 1.5rem;
+    margin-bottom: -8.875rem;
   }
 
   .works-1-img-desktop {
@@ -2164,6 +2162,8 @@ li .btn1 {
     border: 1px solid #dfe1e6;
     border-radius: 1.5rem;
     background: #fff;
+    margin-top: -8rem;
+    margin-bottom: -8.875rem;
   }
 
   .works-2-div1 {
@@ -2373,6 +2373,8 @@ li .btn1 {
     border: 1px solid #dfe1e6;
     border-radius: 1.5rem;
     background: #fff;
+    margin-top: -8rem;
+    margin-bottom: -8.875rem;
   }
 
   .works-3-div1-img-desktop {
@@ -2596,6 +2598,7 @@ color: #344563;
     border: 1px solid #dfe1e6;
     border-radius: 1.5rem;
     background: #fff;
+    margin-top: -8rem;
   }
 
   .works-4-div1 {
@@ -2608,7 +2611,7 @@ color: #344563;
   }
 
   .works-4-div1-img-desktop {
-    display: flex;
+    display: block;
   }
 
   .works-4-div2 {
@@ -2801,7 +2804,11 @@ color: #344563;
   .works-4-div2-4-btn {
     margin-top: 1rem;
   }
-
+  /*aboutme*/
+  .aboutme {
+    width: 1440px;
+height: 924px;
+  }
 
 
 }
