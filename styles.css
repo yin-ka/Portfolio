@@ -64,6 +64,13 @@ body {
   font-size: 1.125rem;
   line-height: 1.25rem;
   margin-left: 1.5rem;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {color: #6070ff;}
+  to {color: darkslateblue;}
 }
 
 .social_media_icons {
