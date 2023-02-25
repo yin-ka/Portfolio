@@ -69,8 +69,8 @@ body {
 }
 
 @keyframes example {
-  from {color: #6070ff;}
-  to {color: darkslateblue;}
+  from { color: #6070ff; }
+  to { color: darkslateblue; }
 }
 
 .social_media_icons {
@@ -1832,15 +1832,15 @@ li .btn1 {
   }
 
   /* header */
-  .my_logo{
+  .my_logo {
     color: #6070ff;
     animation-name: example;
-    animation-duration: 10s;
+    animation-duration: 6s;
   }
 
   @keyframes example {
-    from {color: #6070ff;}
-    to {color: darkslateblue;}
+    from { color: #6070ff; }
+    to { color: rgb(187, 113, 200); }
   }
 
   .desktop_header {
