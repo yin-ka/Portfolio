@@ -17,6 +17,7 @@
 - Flexbox to place elements in the page.
 - Build a personal portfolio site.
 - Use images and backgrounds to enhance the look of the website.
+- Design Portfolio with collaboratiion with **Ansar** and **Yin-ka**
 
 ## 🛠 Built With 
 **Microverse** is built with a combination of HTML and CSS languages.
@@ -35,6 +36,12 @@ Clone this repository to your desired folder to get a local copy up and running.
 
 **Yin-ka**
 - GitHub: [https://github.com/yin-ka)
+
+ **Ansar Ibrahim**
+
+- GitHub: [Ansar Ibrahim](https://github.com/AnsarIbrahim)
+- Twitter: [Ansar Ibrahim](https://twitter.com/ansaradheeb)
+- LinkedIn: [Ansar Ibrahim](https://linkedin.com/in/ansar-ibrahim-61447424a/)
 
 
 ## 🔭 Future Features
