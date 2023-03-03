@@ -18,6 +18,7 @@
 - Build a personal portfolio site.
 - Use images and backgrounds to enhance the look of the website.
 - Design Portfolio with collaboratiion with **Ansar** and **Yin-ka**
+- [About-project](https://www.loom.com/share/500ca0a3bd674509883a2ba520bc34f5)
 
 ## 🛠 Built With 
 **Microverse** is built with a combination of HTML and CSS languages.
