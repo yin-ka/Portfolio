@@ -1,6 +1,6 @@
- const menuIconMobile = document.querySelector('.social_media_icons');
- const menu = document.querySelector('.nav-item');
- const menuLinks = document.querySelectorAll('.nav-item li a');
+const menuIconMobile = document.querySelector('.social_media_icons');
+const menu = document.querySelector('.nav-item');
+const menuLinks = document.querySelectorAll('.nav-item li a');
 
 const isActiveClassExisted = (element) => element.classList.contains('active');
 
