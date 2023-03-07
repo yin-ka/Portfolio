@@ -93,12 +93,12 @@ body {
     flex-direction: column;
     align-items: flex-start;
     mix-blend-mode: multiply;
-    margin-top: -6rem;
+    margin-top: -4.4rem;
     backdrop-filter: blur(8px);
   }
 
   .nav-item li {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .nav-item li a {
