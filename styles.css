@@ -94,6 +94,7 @@ body {
     align-items: flex-start;
     mix-blend-mode: multiply;
     margin-top: -6rem;
+    backdrop-filter: blur(8px);
   }
 
   .nav-item li {
@@ -117,11 +118,14 @@ body {
     opacity: 1;
     left: 0;
     transition: left 0.8s, visibility 0.8s, opacity 0.4s;
+    overflow-y: hidden;
   }
 
   .social_media_icons {
     cursor: pointer;
     z-index: 100;
+    position: fixed;
+    right: 6px;
   }
 }
 
