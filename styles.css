@@ -72,6 +72,58 @@ body {
   to { color: darkslateblue; }
 }
 
+.nav-item {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-item {
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    height: 100vh;
+    background: #6070ff;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    transition: left 0.8s, visibility 0.8s, opacity 0.4s;
+    padding: 8rem 2rem;
+    z-index: 50;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-item li {
+    margin-bottom: 40px;
+  }
+
+  .nav-item li a {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #fff;
+    transition: color 1s;
+  }
+
+  .nav-item li a:hover {
+    color: #000;
+  }
+
+  .active {
+    visibility: visible;
+    opacity: 1;
+    left: 0;
+    transition: left 0.8s, visibility 0.8s, opacity 0.4s;
+    overflow-y: hidden;
+  }
+
+  .social_media_icons {
+    cursor: pointer;
+    z-index: 100;
+  }
+}
+
 .social_media_icons {
   width: 1.125rem;
   height: 0.7rem;
