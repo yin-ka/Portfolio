@@ -81,17 +81,19 @@ body {
     visibility: hidden;
     opacity: 0;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background: #6070ff;
     display: flex;
     position: fixed;
     top: 0;
     left: 100%;
-    transition: left 0.8s, visibility 0.8s, opacity 0.4s;
+    transition: left 0.8s, visibility 1.8s, opacity 0.4s;
     padding: 8rem 2rem;
     z-index: 50;
     flex-direction: column;
     align-items: flex-start;
+    mix-blend-mode: multiply;
+    margin-top: -6rem;
   }
 
   .nav-item li {
@@ -115,7 +117,6 @@ body {
     opacity: 1;
     left: 0;
     transition: left 0.8s, visibility 0.8s, opacity 0.4s;
-    overflow-y: hidden;
   }
 
   .social_media_icons {

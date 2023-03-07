@@ -6,17 +6,17 @@ const isActiveClassExisted = (element) => element.classList.contains('active');
 
 const refreshIcon = () => {
   if (isActiveClassExisted(menu)) {
-    menuIconMobile.setAttribute('src', 'icons/Icon - Cancelclose2.png');
+    menuIconMobile.setAttribute('src', 'icons/Iconclose.svg');
   } else {
     menuIconMobile.setAttribute('src', 'icons/Union.png');
   }
 };
-export const openMenu = () => {
+const openMenu = () => {
   menu.classList.toggle('active');
   refreshIcon();
 };
 
-export const closeMenu = () => {
+const closeMenu = () => {
   menu.classList.remove('active');
   refreshIcon();
 };
