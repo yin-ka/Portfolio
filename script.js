@@ -25,3 +25,26 @@ menuIconMobile.addEventListener('click', openMenu);
 menuLinks.forEach((menuLink) => {
   menuLink.addEventListener('click', closeMenu);
 });
+
+// contact form validation ------------>
+const email = document.querySelector('.email');
+const form = document.querySelector('.form-1');
+const error = document.querySelector('.error');
+
+function isItUppercase(value) {
+  if (value.match(/^[a-z@.0-9-_]*$/)) {
+    return true;
+  }
+  return false;
+}
+
+form.addEventListener('submit', (e) => {
+  if (isItUppercase(email.value)) {
+    error.textContent = '';
+    email.style.border = '1px solid #cfd8dc';
+  } else {
+    e.preventDefault();
+    email.style.border = '3px solid red';
+    error.textContent = 'X   Email should be in lowerCase';
+  }
+});
