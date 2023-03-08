@@ -48,3 +48,41 @@ form.addEventListener('submit', (e) => {
     error.textContent = 'X   Email should be in lowerCase';
   }
 });
+
+//  Local  storage---------------->
+const inputEmail = document.getElementById('form-email');
+const inputName = document.getElementById('fullname');
+const inputMessage = document.getElementById('text-area');
+
+// eslint-disable-next-line no-unused-vars
+function formData() {
+  const formData = {
+    name: inputName.value,
+    email: inputEmail.value,
+    message: inputMessage.value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+function localObject() {
+  let name = '';
+  let email = '';
+  let message = '';
+  if (window.localStorage.getItem('formData') === null) {
+    name = '';
+    email = '';
+    message = '';
+  } else {
+    ({ name, email, message } = JSON.parse(localStorage.getItems('formdata')));
+  }
+
+  if (name !== null || email !== null || message !== null) {
+    inputName.value = name;
+    inputEmail.value = email;
+    inputMessage.value = message;
+  }
+}
+document.addEventListener('DOMContentLoad', () => {
+  localObject();
+});
