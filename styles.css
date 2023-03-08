@@ -1846,6 +1846,12 @@ li .btn1 {
   display: none;
 }
 
+/*contact form validation*/
+.error {
+  text-align: center;
+  color: red;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     display: none;
