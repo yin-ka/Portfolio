@@ -50,39 +50,37 @@ form.addEventListener('submit', (e) => {
 });
 
 //  Local  storage---------------->
-const inputEmail = document.getElementById('form-email');
-const inputName = document.getElementById('fullname');
-const inputMessage = document.getElementById('text-area');
 
-// eslint-disable-next-line no-unused-vars
-function formData() {
+const nameInput = form.querySelector('#fullname');
+const emailInput = form.querySelector('#from-email');
+const messageInput = form.querySelector('#text-area');
+
+// eslint-disable-next-line func-names
+const storeFormData = function () {
   const formData = {
-    name: inputName.value,
-    email: inputEmail.value,
-    message: inputMessage.value,
+    name: nameInput.value,
+    email: emailInput.value,
+    message: messageInput.value,
   };
 
   localStorage.setItem('formData', JSON.stringify(formData));
-}
+};
 
-function localObject() {
-  let name = '';
-  let email = '';
-  let message = '';
-  if (window.localStorage.getItem('formData') === null) {
-    name = '';
-    email = '';
-    message = '';
-  } else {
-    ({ name, email, message } = JSON.parse(localStorage.getItems('formdata')));
-  }
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  storeFormData();
+});
 
-  if (name !== null || email !== null || message !== null) {
-    inputName.value = name;
-    inputEmail.value = email;
-    inputMessage.value = message;
+nameInput.addEventListener('input', storeFormData);
+emailInput.addEventListener('input', storeFormData);
+messageInput.addEventListener('input', storeFormData);
+
+window.addEventListener('load', () => {
+  const formData = JSON.parse(localStorage.getItem('formData'));
+
+  if (formData) {
+    nameInput.value = formData.name;
+    emailInput.value = formData.email;
+    messageInput.value = formData.message;
   }
-}
-document.addEventListener('DOMContentLoad', () => {
-  localObject();
 });
