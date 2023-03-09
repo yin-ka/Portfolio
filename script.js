@@ -48,3 +48,39 @@ form.addEventListener('submit', (e) => {
     error.textContent = 'X   Email should be in lowerCase';
   }
 });
+
+//  Local  storage---------------->
+
+const nameInput = form.querySelector('#fullname');
+const emailInput = form.querySelector('#from-email');
+const messageInput = form.querySelector('#text-area');
+
+// eslint-disable-next-line func-names
+const storeFormData = function () {
+  const formData = {
+    name: nameInput.value,
+    email: emailInput.value,
+    message: messageInput.value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(formData));
+};
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  storeFormData();
+});
+
+nameInput.addEventListener('input', storeFormData);
+emailInput.addEventListener('input', storeFormData);
+messageInput.addEventListener('input', storeFormData);
+
+window.addEventListener('load', () => {
+  const formData = JSON.parse(localStorage.getItem('formData'));
+
+  if (formData) {
+    nameInput.value = formData.name;
+    emailInput.value = formData.email;
+    messageInput.value = formData.message;
+  }
+});
