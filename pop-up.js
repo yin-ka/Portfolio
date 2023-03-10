@@ -3,15 +3,15 @@ const data = [
     projectTitle: 'Tonic',
     imageURL: './images/Snapshoot Portfoliowork1.png',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
-    technologies: ['HTML', 'CSS', 'JS', 'Ruby'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
     seeLive: 'https://yin-ka.github.io/Microverse/',
     sourceCode: 'https://github.com/yin-ka/Microverse',
   },
   {
     projectTitle: 'Multi-Post Stories',
-    imageURL: './images/Snapshoot Portfoliowork2.svg',
+    imageURL: './images/Snapshoot Portfolio1.svg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
-    technologies: ['HTML', 'CSS', 'JS', 'Ruby'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
     seeLive: 'https://yin-ka.github.io/Microverse/',
     sourceCode: 'https://github.com/yin-ka/Microverse',
   },
@@ -19,7 +19,7 @@ const data = [
     projectTitle: 'Facebook 360',
     imageURL: './images/Snapshoot Portfoliowork3.svg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
-    technologies: ['HTML', 'CSS', 'JS', 'Ruby'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
     seeLive: 'https://yin-ka.github.io/Microverse/',
     sourceCode: 'https://github.com/yin-ka/Microverse',
   },
@@ -27,7 +27,7 @@ const data = [
     projectTitle: 'Uber Navigation',
     imageURL: './images/Snapshoot Portfoliowork4.svg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
-    technologies: ['HTML', 'CSS', 'JS', 'Ruby'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
     seeLive: 'https://yin-ka.github.io/Microverse/',
     sourceCode: 'https://github.com/yin-ka/Microverse',
   },
@@ -58,7 +58,7 @@ document.querySelectorAll('.button').forEach((occurence) => {
                     <li class="dim">2015</li>
                 </ul>
             </div>
-            <img class="projectImage" src=${data[id].imageURL} alt="project-image">
+            <img class="projectImage" src=${data[id].projectTitle} alt="project-image">
           <div class="popupDown">
           <div class="project-desc popupDesc">${data[id].description}</div>
             <div class="popupBtns">
@@ -71,9 +71,9 @@ document.querySelectorAll('.button').forEach((occurence) => {
               <hr>
               <div class="actionBtnPopup">
                <a class="btn btnPopup" href=${data[id].seeLive} target='blank'>
-               See Live <img class="seeAll" src='./Assets/Icon.svg' alt="seeLive"></a>
+               See Live <img class="seeAll" src='/icons/Iconlive.svg' alt="seeLive"></a>
               <a class="btn btnPopup" href=${data[id].sourceCode} target='blank'>
-              See Source <img class="seeAll" src='./Assets/Vector.svg' alt="githubCode"></a>
+              See Source <img class="seeAll" src='/icons/Groupsource.svg' alt="githubCode"></a>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ document.querySelectorAll('.button').forEach((occurence) => {
       </div>
     </div>`;
   occurence.addEventListener('click', () => {
-    const body = document.getElementsById('body');
+    const body = document.getElementById('body');
     const section = document.createElement('section');
     section.innerHTML = popupCard;
     section.classList.add('hide');

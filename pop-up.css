@@ -83,6 +83,87 @@
   gap: 10px;
 }
 
+.work-title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 15px 0;
+  }
+  
+  .client {
+    color: #344563;
+  }
+  
+  .dim {
+    color: #7a869a;
+  }
+  
+  .project-desc {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    margin: 10px 10px 10px 0;
+  }
+  
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .tag {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    background: #ebebff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 20px;
+  }
+  
+  .btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 124px;
+    height: 48px;
+    margin: 15px 0;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396df2;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #396df2;
+    color: white;
+  }
+  
+
 @media only screen and (min-width: 768px) {
   .project1 {
     background-color: #fff;
@@ -138,5 +219,73 @@
     justify-content: flex-start;
     align-items: center;
     gap: 15px;
+  }
+
+  .client {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .dim {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
+  }
+
+  .project-desc {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    margin: 10px 10px 10px 0;
+  }
+
+
+  .tags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .tag:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: all 0.5s;
+  }
+
+  .btn:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .btn2:hover {
+    cursor: pointer;
+    background-color: #396df2;
+    color: white;
+    transform: scale(1.15);
+    transition: all 0.5s;
+  }
+
+  .client {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
   }
 }
