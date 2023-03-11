@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.project1 {
+.project {
   background-color: #fff;
   height: 97%;
   width: 92%;
@@ -72,8 +72,8 @@
 }
 
 .seeAll {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
 }
 
 .popupBtns,
@@ -112,6 +112,10 @@
   color: #344563;
   margin: 10px 10px 10px 0;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 .tags {
   display: flex;
@@ -161,9 +165,13 @@
   background-color: #396df2;
   color: white;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 @media only screen and (min-width: 768px) {
-  .project1 {
+  .project {
     background-color: #fff;
     height: 96%;
     width: 90%;
