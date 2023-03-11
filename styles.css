@@ -213,7 +213,7 @@ body {
   grid-template-rows: auto auto auto auto;
   align-items: center;
   width: 100vw;
-  height: 439.05vh;
+  height: 100%;
   gap: 5.5rem;
   padding: 7.125rem 1.5rem;
   overflow-x: hidden;
@@ -228,7 +228,7 @@ body {
   padding: 16px;
   gap: 0.75rem;
   width: 87.2vw;
-  height: 86.93vh;
+  height: 100%;
   background: #fff;
   border: 0.063rem solid #dfe1e6;
   border-radius: 1rem;
@@ -241,6 +241,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  width: 100%;
 }
 
 .works-1-div2 {
@@ -495,7 +496,7 @@ body {
   padding: 16px;
   gap: 0.75rem;
   width: 87.2vw;
-  height: 93.86vh;
+  height: 100%;
   background: #fff;
   border: 0.063rem solid #dfe1e6;
   border-radius: 1rem;
@@ -508,6 +509,8 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  width: 100%;
+  height: auto;
 }
 
 .works-2-div2 {
@@ -772,9 +775,7 @@ body {
 }
 
 .works-3-div1-img {
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  width: 100%;
 }
 
 .works-3-div2 {
@@ -1029,7 +1030,7 @@ body {
   padding: 16px;
   gap: 0.75rem;
   width: 87.2vw;
-  height: 93.86vh;
+  height: 100%;
   background: #fff;
   border: 0.063rem solid #dfe1e6;
   border-radius: 1rem;
@@ -1042,6 +1043,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  width: 100%;
 }
 
 .works-4-div2 {
@@ -1134,7 +1136,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 0.813rem;
+  font-size: 0.723rem;
   line-height: 1rem;
   color: #7a869a;
 }
@@ -1818,31 +1820,19 @@ li .btn1 {
   display: none;
 }
 
-.works-2-div1-img-desktop {
-  display: none;
-}
-
-.works-2-desktop {
-  display: none;
-}
-
-.works-2-div2-3-btn1-ruby {
-  display: none;
-}
-
-.works-3-desktop {
-  display: none;
-}
-
 .works-3-div1-img-desktop {
   display: none;
 }
 
-.works-4-desktop {
+.works-2-div1-img-desktop {
   display: none;
 }
 
 .works-4-div1-img-desktop {
+  display: none;
+}
+
+.works-4-div2-3-btn1-ruby {
   display: none;
 }
 
@@ -1874,18 +1864,6 @@ li .btn1 {
   }
 
   .works-4-div1-img {
-    display: none;
-  }
-
-  .works-2 {
-    display: none;
-  }
-
-  .works-3 {
-    display: none;
-  }
-
-  .works-4 {
     display: none;
   }
 
@@ -2067,9 +2045,10 @@ li .btn1 {
     display: grid;
     grid-template-rows: auto, auto auto auto;
     align-items: center;
-    padding: 0 8.875rem;
+    padding: 8.875rem;
     width: 90rem;
     height: 2694px;
+    overflow-y: hidden;
   }
 
   /* work1 */
@@ -2081,7 +2060,7 @@ li .btn1 {
     height: 31rem;
     border: 1px solid #dfe1e6;
     border-radius: 1.5rem;
-    margin-bottom: -8.875rem;
+    margin-top: -2rem;
   }
 
   .works-1-img-desktop {
@@ -2242,7 +2221,7 @@ li .btn1 {
   }
 
   /* work2 */
-  .works-2-desktop {
+  .works-2 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2251,14 +2230,12 @@ li .btn1 {
     border: 1px solid #dfe1e6;
     border-radius: 1.5rem;
     background: #fff;
-    margin-top: -8rem;
-    margin-bottom: -8.875rem;
   }
 
   .works-2-div1 {
     width: 34rem;
     height: 28rem;
-    margin: 1.5rem 1.375rem 1.5rem 1.375rem;
+    margin: 1.5rem 1.375rem 1.5rem 0;
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -2273,7 +2250,6 @@ li .btn1 {
     flex-direction: column;
     align-items: flex-start;
     padding: 1.5rem;
-    gap: 1.5rem;
     width: 34rem;
     height: 29.063rem;
     margin: 1.5rem 0 0.438rem 1.5rem;
@@ -2454,7 +2430,7 @@ li .btn1 {
   }
 
   /* work3 */
-  .works-3-desktop {
+  .works-3 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2463,8 +2439,6 @@ li .btn1 {
     border: 1px solid #dfe1e6;
     border-radius: 1.5rem;
     background: #fff;
-    margin-top: -8rem;
-    margin-bottom: -8.875rem;
   }
 
   .works-3-div1-img-desktop {
@@ -2472,7 +2446,7 @@ li .btn1 {
   }
 
   .works-3-div1 {
-    margin: 1.5rem 0 1.5rem 1.5rem;
+    margin: 1.5rem 0 1.5rem 0;
   }
 
   .works-3-div2 {
@@ -2668,7 +2642,7 @@ li .btn1 {
   }
 
   /* work4 */
-  .works-4-desktop {
+  .works-4 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2677,14 +2651,13 @@ li .btn1 {
     border: 1px solid #dfe1e6;
     border-radius: 1.5rem;
     background: #fff;
-    margin-top: -8rem;
-    margin-bottom: -8.875rem;
+    margin-bottom: -2rem;
   }
 
   .works-4-div1 {
     width: 34rem;
     height: 28rem;
-    margin: 1.5rem 1.375rem 1.5rem 1.375rem;
+    margin: 1.5rem 1.375rem 1.5rem 0;
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -3158,4 +3131,57 @@ li .btn1 {
   .div-shape {
     display: none;
   }
+}
+
+/* pop-up */
+.projectPopup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f7f7f9;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project1 {
+  background-color: #fff;
+  height: 97%;
+  width: 92%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupTop {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titlePopup {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.projectImage {
+  display: flex;
+  justify-content: center;
+}
+
+.popupClose {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.popupClose:hover {
+  transform: scale(1.2);
+  transition: all 0.7s;
 }
