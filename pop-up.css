@@ -136,13 +136,17 @@
   padding: 4px 20px;
 }
 
+.tag:nth-child(4) {
+    display: none;
+}
+
 .btn {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 146px;
+  width: 136px;
   height: 48px;
   margin: 15px 0;
   border: 1px solid #6070ff;
