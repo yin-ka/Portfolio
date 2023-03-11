@@ -1,7 +1,7 @@
 const data = [
   {
     projectTitle: 'Tonic',
-    imageURL: './images/Snapshoot Portfoliowork1.png',
+    imageURL: '/images/Portfoliowork1.png',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
     seeLive: 'https://yin-ka.github.io/Microverse/',
@@ -9,7 +9,7 @@ const data = [
   },
   {
     projectTitle: 'Multi-Post Stories',
-    imageURL: './images/Snapshoot Portfolio1.svg',
+    imageURL: '/images/Portfoliowork2.svg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
     seeLive: 'https://yin-ka.github.io/Microverse/',
@@ -17,7 +17,7 @@ const data = [
   },
   {
     projectTitle: 'Facebook 360',
-    imageURL: './images/Snapshoot Portfoliowork3.svg',
+    imageURL: '/images/Portfoliowork3.svg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
     seeLive: 'https://yin-ka.github.io/Microverse/',
@@ -25,7 +25,7 @@ const data = [
   },
   {
     projectTitle: 'Uber Navigation',
-    imageURL: './images/Snapshoot Portfoliowork4.svg',
+    imageURL: './images/Portfoliowork4.svg',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
     seeLive: 'https://yin-ka.github.io/Microverse/',
@@ -36,7 +36,7 @@ const data = [
 document.querySelectorAll('.button').forEach((occurence) => {
   const id = occurence.getAttribute('id');
   const popupCard = `
-  <div class="project1" id="project1">
+  <div class="project" id="project">
         <div class="popupTop">
             <div class="projectPopupTitle">
               <div class="titlePopup">
@@ -58,7 +58,7 @@ document.querySelectorAll('.button').forEach((occurence) => {
                     <li class="dim">2015</li>
                 </ul>
             </div>
-            <img class="projectImage" src=${data[id].projectTitle} alt="project-image">
+            <img class="projectImage" src=${data[id].imageURL} alt="project-image">
           <div class="popupDown">
           <div class="project-desc popupDesc">${data[id].description}</div>
             <div class="popupBtns">
