@@ -1843,9 +1843,6 @@ li .btn1 {
 }
 
 @media screen and (min-width: 768px) {
-  .headline {
-    display: none;
-  }
 
   .works-1-div1-img {
     display: none;
@@ -1966,7 +1963,7 @@ li .btn1 {
   }
 
   /* Headline */
-  .desktop_headline {
+  .headline {
     width: 100%;
     height: 52.875rem;
     background: #fff;
@@ -1978,7 +1975,7 @@ li .btn1 {
     margin-bottom: 0;
   }
 
-  .desktop_headline-1 {
+  .headline-1 {
     display: flex;
     align-items: center;
     height: 7.625rem;
