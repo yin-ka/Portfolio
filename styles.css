@@ -1843,7 +1843,6 @@ li .btn1 {
 }
 
 @media screen and (min-width: 768px) {
-
   .headline {
     display: none;
   }
@@ -1963,9 +1962,9 @@ li .btn1 {
   }
 
   .social_media_icons {
-    display: none
+    display: none;
   }
-  
+
   /* Headline */
   .desktop_headline {
     width: 100%;
