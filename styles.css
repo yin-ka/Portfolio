@@ -474,3 +474,260 @@ form textarea {
   margin-top: 30px;
   margin-bottom: 5px;
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #menu-icon {
+    display: none;
+  }
+
+  a {
+    text-decoration-line: none;
+    color: #344563;
+  }
+
+  .container {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .menu-list > li {
+    margin-left: 30px;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .menu-list > li > a:hover {
+    color: #6070ff;
+  }
+
+  .hero-holder {
+    background-color: #e5e5e5;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("./images/desktop/herobg.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    border-radius: 0 0 0 50px;
+  }
+
+  .greetings {
+    color: #091e42;
+    font-size: 48px;
+    font-weight: 700;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .about-me {
+    font-weight: 400;
+    font-size: 20px;
+    color: #344563;
+    text-decoration: none;
+    line-height: 28px;
+  }
+
+  .hero > .container {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .icon-group li a i:hover {
+    color: #6070ff;
+    transform: scale(2);
+    transition: ease 0.6s;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .cards img {
+    width: 50%;
+    transition: width 2s, height 2s;
+  }
+
+  .cards img:hover {
+    width: 55%;
+    height: auto;
+  }
+
+  .cards img.swap {
+    order: 1;
+  }
+
+  .card-data {
+    padding-left: 20px;
+  }
+
+  h1.title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #172b4d;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    line-height: 52px;
+  }
+
+  .position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .position .place {
+    font-weight: 600;
+    font-size: 13px;
+    color: #344563;
+  }
+
+  .position .post-name {
+    font-weight: 600;
+    font-size: 13px;
+    color: #7a869a;
+    padding-left: 20px;
+  }
+
+  .position .post-year {
+    font-weight: 600;
+    font-size: 13px;
+    color: #7a869a;
+    padding-left: 20px;
+  }
+
+  p.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #344563;
+  }
+
+  .about-myself {
+    display: flex;
+  }
+
+  .about-myself-intro {
+    width: 50%;
+    border-radius: 0 0 0 0;
+    padding-bottom: 10vh;
+    padding-left: 5%;
+  }
+
+  .about-myself-skills {
+    padding-top: 10vh;
+    width: 50%;
+    border-radius: 0 50px 0 0;
+    padding-bottom: 10vh;
+    padding-right: 5%;
+  }
+
+  .sub-skills {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sub-skill {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .sub-skill-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .work-modal-middle {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .work-modal-middle > .description {
+    width: 60%;
+  }
+
+  .work-modal-middle > .work-modal-middle-group {
+    width: 40%;
+  }
+
+  .work-modal-hr {
+    color: #ebecf0;
+  }
+
+  .work-modal-img {
+    width: 100%;
+    height: 586px;
+  }
+
+  .sub-skill-name {
+    font-weight: 600;
+    font-size: 15px;
+    color: #253858;
+    padding-top: 0;
+  }
+
+  .my-form {
+    background-image: url("./images/desktop/contactbg.png");
+    background-color: #6070ff;
+    background-repeat: no-repeat;
+    background-size: 90% 95%;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-bottom: 10vh;
+  }
+
+  .contact-title {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  #center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .go-home-bar {
+    display: none;
+  }
+}
