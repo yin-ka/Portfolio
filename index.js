@@ -92,7 +92,7 @@ function ReadElement(selector) {
       sourceCode: '',
     }, {
       title: 'Tonic',
-      name: 'CANOPY',
+      name: '',
       technology: 'Back End Dev',
       year: '2023',
       imageUrl: 'images/Snapshoot-Portfolio2.png',
