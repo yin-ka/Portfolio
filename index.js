@@ -71,15 +71,15 @@ function ReadElement(selector) {
   
   const details = [
     {
-      title: '',
+      title: 'ResortVista',
       name: '',
-      technology: 'Front End Dev',
+      technology: 'Full Stack Dev',
       year: '2023',
-      imageUrl: '',
-      description: "",
-      languages: ['html', 'css', 'javascript', 'github', 'Bootstraps'],
-      liveLink: '',
-      sourceCode: '',
+      imageUrl: 'images/ResortVista.png',
+      description: "Resort Vista is a user-friendly app for effortlessly booking stays at preferred resorts. The platform streamlines the selection and booking process, aiming to make leisure getaways easy and efficient for enhanced user satisfaction.",
+      languages: ['React', 'Redux', 'RubyOnRails', 'Postgresql', 'Bundler'],
+      liveLink: 'https://resortvista.onrender.com/',
+      sourceCode: 'https://github.com/yin-ka/resort-front-end',
     }, {
       title: '',
       name: '',
