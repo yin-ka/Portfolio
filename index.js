@@ -98,8 +98,8 @@ function ReadElement(selector) {
       imageUrl: 'images/Snapshoot-Portfolio2.png',
       description: "",
       languages: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
-      liveLink: '',
-      sourceCode: '',
+      liveLink: 'https://crypto-coin-tracker.onrender.com/',
+      sourceCode: 'https://github.com/yin-ka/crypto-coin-tracker',
     }, {
       title: 'Multi-Post Stories',
       name: 'CANOPY',
