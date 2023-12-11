@@ -71,7 +71,7 @@ function ReadElement(selector) {
   
   const details = [
     {
-      title: 'ResortVista',
+      title: 'Resort Vista',
       name: '',
       technology: 'Full Stack Dev',
       year: '2023',
@@ -81,13 +81,13 @@ function ReadElement(selector) {
       liveLink: 'https://resortvista.onrender.com/',
       sourceCode: 'https://github.com/yin-ka/resort-front-end',
     }, {
-      title: '',
+      title: 'Crypto Coin Tracker',
       name: '',
-      technology: 'Back End Dev',
+      technology: 'Front End Dev',
       year: '2023',
-      imageUrl: 'images/Snapshoot-Portfolio4.png',
-      description: "",
-      languages: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
+      imageUrl: 'images/CryptoCoinTracker.png',
+      description: "The Crypto Coin Tracker is a mobile web app showcasing global crypto metric updates. It was developed by integrating data from the COINLORE API and conducting unit tests for Redux code functions.",
+      languages: ['html', 'css', 'javascript', 'React'],
       liveLink: '',
       sourceCode: '',
     }, {
