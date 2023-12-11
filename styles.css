@@ -7,6 +7,11 @@ body {
   overflow-x: hidden;
 }
 
+button > a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
   padding-left: 5%;
   padding-right: 5%;
@@ -209,11 +214,6 @@ p.description {
   border-radius: 8px;
   padding: 14px 10px;
   border: 2px solid #396df2;
-}
-
-.view-more > a {
-  text-decoration: none;
-  color: inherit;
 }
 
 form div .view-more {
