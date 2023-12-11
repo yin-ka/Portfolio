@@ -25,7 +25,7 @@
 
 ## 🚀 Live Demo 
 
-- [Live Demo Link](https://yin-ka.github.io/Portfolio-Website/)
+- [Live Demo Link](https://yin-ka.github.io/Portfolio/)
 
 
 ## 💻 Getting Started 
