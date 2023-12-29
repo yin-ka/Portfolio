@@ -137,8 +137,8 @@ function renderModal(number) {
                     </div>
                       <hr class="work-modal-hr">
                       <div class="work-modal-btn-grp">
-                      <a href=${work.liveLink} id="btn-link" ><button type="button" class="view-more work-modal-btn">See live <img class="btn-icon" src="images/icons/Icon.png" alt="icon img"></button></a>
-                      <a href=${work.sourceCode} id="btn-link" <button type="button" class="view-more work-modal-btn">See Source <img class="btn-icon" src="images/icons/Vector.png" alt="icon img"></button></a>
+                      <a target="_blank" href=${work.liveLink} id="btn-link" ><button type="button" class="view-more work-modal-btn">See live <img class="btn-icon" src="images/icons/Icon.png" alt="icon img"></button></a>
+                      <a target="_blank" href=${work.sourceCode} id="btn-link" <button type="button" class="view-more work-modal-btn">See Source <img class="btn-icon" src="images/icons/Vector.png" alt="icon img"></button></a>
                     </div>
                 </div> 
             </div>
